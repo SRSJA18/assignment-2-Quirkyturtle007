@@ -8,6 +8,7 @@
 # If you don't include a condition that catches negative numbers, what will your program do?)
 
 # This line asks the user to input a number and stores it in the variable count.
-count = input("Countdown from?")
-
+count = eval(input("Countdown from?"))
 # 1. Create while loop that counts down to zero (What will the condition be? What occurs inside the loop?)
+for i in range(count,-1,-1):
+    print(i)
